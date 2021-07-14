@@ -1,0 +1,91 @@
+body {
+  background-color: black;
+  margin: 0;
+  font-family: 'Avenir', 'Monserrat', sans-serif;
+}
+h1 {
+  color: white;
+  text-align: center;
+  background-color: steelblue;
+  margin: 0;
+  padding: 20px 0;
+  font-weight: normal;
+  text-transform: uppercase;
+  line-height: 1.1;
+}
+#colordisplay {
+  font-size: 200%;
+}
+button {
+  border: none;
+  background-color: none;
+  text-transform: uppercase;
+  height: 100%;
+  font-weight: 700;
+  font-size: inherit;
+  color: steelblue;
+  letter-spacing: 1px;
+  transition: all 0.4s;
+  outline: none;
+}
+button:hover {
+  color: white;
+  background-color: steelblue;
+}
+#message {
+  display: inline-block;
+  width: 20%;
+}
+
+#stripe {
+  background-color: white;
+  height: 2em;
+  text-align: center;
+
+}
+
+.selected {
+  color: white;
+  background-color: steelblue;
+}
+
+#c {
+  max-width: 600px;
+  margin: 70px auto;
+}
+.square {
+  width: 30%;
+  padding-bottom: 30%;
+  float: left;
+  margin: 1.66%;
+  border-radius: 15%;
+  transition-property: background-color;
+  transition: 0.4s;
+  -webkit-transition: background 0.4s;
+  -moz-transition: background 0.4s;
+}
+
+#s1 {
+  transition-property: background-color;
+  transition-delay: 50ms;
+
+}
+#s2 {
+  transition-property: background-color;
+  transition-delay: 100ms;
+}
+#s3 {
+  transition-property: background-color;
+  transition-delay: 150ms;
+}
+#s4 {
+  transition-property: background-color;
+  transition-delay: 200ms;
+}
+#s5 {
+  transition-property: background-color;
+  transition-delay: 250ms;
+}#s6 {
+  transition-property: background-color;
+  transition-delay: 300ms;
+}
